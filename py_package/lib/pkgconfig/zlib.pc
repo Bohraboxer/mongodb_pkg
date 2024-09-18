@@ -1,0 +1,13 @@
+prefix=/home/rohit/py_package/py_package
+exec_prefix=/home/rohit/py_package/py_package
+libdir=/home/rohit/py_package/py_package/lib
+sharedlibdir=/home/rohit/py_package/py_package/lib
+includedir=/home/rohit/py_package/py_package/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
